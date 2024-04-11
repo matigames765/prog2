@@ -10,8 +10,8 @@ public class Main3 {
         Empleado empleado3 = new Empleado("Desarrollador Frontend","Juan");
         Empleado empleado4 = new Empleado("Contador","Julian");
 
-        Departamento departamento1 = new Departamento(new ArrayList<Empleado>(),"Informatica");
-        Departamento departamento2 = new Departamento(new ArrayList<>(),"Contabilidad");
+        Departamento departamento1 = new Departamento("Informatica");
+        Departamento departamento2 = new Departamento("Contabilidad");
 
 
         departamento2.agregarEmpleados(empleado1);

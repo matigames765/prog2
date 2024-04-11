@@ -9,10 +9,9 @@ public class Persona {
 
     private ArrayList<Libro> libros;
 
-    public Persona() {
-    }
 
-    public Persona(String nombre, Libro[] libros) {
+
+    public Persona(String nombre) {
         this.nombre = nombre;
         this.libros = new ArrayList<>();
 

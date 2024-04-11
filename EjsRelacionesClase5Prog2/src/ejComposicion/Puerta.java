@@ -4,8 +4,7 @@ public class Puerta {
 
     private String material;
 
-    public Puerta() {
-    }
+
 
     public Puerta(String material) {
         this.material = material;

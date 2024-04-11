@@ -1,15 +1,17 @@
 import ejAsociacionBidireccional.Libro;
 import ejAsociacionBidireccional.Persona;
 
+import java.util.ArrayList;
+
 public class Main2 {
     public static void main(String[] args) {
 
-        Persona persona1 = new Persona("Juan", new Libro[]{});
-        Persona persona2 = new Persona("María", new Libro[]{});
+        Persona persona1 = new Persona("Juan");
+        Persona persona2 = new Persona("María");
 
 
-        Libro libro1 = new Libro(new Persona[]{persona1}, "El señor de los anillos");
-        Libro libro2 = new Libro(new Persona[]{persona1, persona2}, "Harry potter");
+        Libro libro1 = new Libro( "El señor de los anillos");
+        Libro libro2 = new Libro( "Harry potter");
 
 
         persona1.agregarLibros(libro1);

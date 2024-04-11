@@ -5,8 +5,7 @@ public class Empleado {
 
     private String nombre;
 
-    public Empleado() {
-    }
+
 
     public Empleado(String cargo, String nombre) {
         this.cargo = cargo;

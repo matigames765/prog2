@@ -7,11 +7,12 @@ public class Casa {
 
     private int numPuertas = 0;
 
-    public Casa() {
-    }
 
-    public Casa(ArrayList<Puerta> puertas) {
+
+    public Casa() {
         this.puertas = new ArrayList<>();
+        this.agregarPuertas("MDF");
+        this.agregarPuertas("Aglomerado");
     }
 
     public ArrayList<Puerta> getPuertas() {
@@ -30,7 +31,8 @@ public class Casa {
         this.numPuertas = numPuertas;
     }
 
-    public void agregarPuertas(Puerta puerta){
+    public void agregarPuertas(String material){
+        Puerta puerta = new Puerta(material);
         puertas.add(puerta);
         numPuertas++;
     }

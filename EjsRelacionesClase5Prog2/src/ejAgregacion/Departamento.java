@@ -7,10 +7,9 @@ public class Departamento {
 
     private String nombre;
 
-    public Departamento() {
-    }
 
-    public Departamento(ArrayList<Empleado> empleados, String nombre) {
+
+    public Departamento( String nombre) {
         this.empleados = new ArrayList<>();
         this.nombre = nombre;
     }

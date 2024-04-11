@@ -4,8 +4,7 @@ public class Empresa {
 
     private ArrayList<Departamento> departamentos;
 
-    public Empresa() {
-    }
+
 
     public Empresa(ArrayList<Departamento> departamentos) {
         this.departamentos = new ArrayList<>();
@@ -19,7 +18,5 @@ public class Empresa {
         this.departamentos = departamentos;
     }
 
-    public void agregarDepartamento(Departamento departamento){
-        departamentos.add(departamento);
-    }
+
 }

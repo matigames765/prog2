@@ -7,12 +7,11 @@ public class Estudiante {
     private Universidad universidad;
 
     public Estudiante() {
-    }
-
-    public Estudiante(String nombre, Universidad universidad) {
         this.nombre = nombre;
         this.universidad = universidad;
     }
+
+
 
     public String getNombre() {
         return nombre;

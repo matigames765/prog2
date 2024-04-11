@@ -9,13 +9,13 @@ public class Main4 {
         Puerta puerta2 = new Puerta("Metal");
         Puerta puerta3 = new Puerta("Composite");
 
-        Casa casa = new Casa(new ArrayList<Puerta>());
+        Casa casa = new Casa();
 
-        casa.agregarPuertas(puerta1);
-        casa.agregarPuertas(puerta2);
-        casa.agregarPuertas(puerta3);
+        casa.agregarPuertas(puerta1.getMaterial());
+        casa.agregarPuertas(puerta2.getMaterial());
+        casa.agregarPuertas(puerta3.getMaterial());
 
-        System.out.println("Los materiales de las tres puertas de la casa sonn: ");
+        System.out.println("Los materiales de las tres puertas de la casa son: ");
         for (Puerta puerta : casa.getPuertas()){
             System.out.println(puerta.getMaterial());
         }

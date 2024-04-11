@@ -7,12 +7,11 @@ public class Libro {
 
     private String titulo;
 
-    public Libro() {
-    }
 
-    public Libro(Persona[] propietarios, String titulo) {
-        this.propietarios = new ArrayList<>();
+
+    public Libro( String titulo) {
         this.titulo = titulo;
+        this.propietarios = new ArrayList<>();
 
     }
 
